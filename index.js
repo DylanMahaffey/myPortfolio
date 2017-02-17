@@ -22,8 +22,8 @@
 					})
                     .when("/portfolio", {
 						templateUrl: "/partials/portfolio.partial.htm",
-					// 	// controller: "exercise2Controller",
-					// 	// controllerAs: "vm"
+						controller: "portfolioController",
+						controllerAs: "vm"
 					})
 					.when("/contact", {
 						templateUrl: "partials/contact.partial.htm",
