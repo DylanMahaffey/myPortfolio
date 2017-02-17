@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8" />
+	<meta content="width=device-width,initial-scale=1,user-scalable=0" name="viewport" />
+	<meta content="yes" name="mobile-web-app-capable" />
+    <title>Dylan Mahaffey</title>
+
+    <base href="/" />
+
+    <!-- angular pieces -->
+	<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+
+    <!-- jquery -->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script type="text/javascript" src='index.js'></script>
+
+    <!-- components -->
+    <script type="text/javascript" src='components/navigation/nav.controller.js'></script>
+    <script type="text/javascript" src='components/navigation/nav.js'></script>
+
+</head>
+<body ng-app='application'>
+
+<div ng-view>Angular routing hasn't loaded or been configured properly...</div>
+
+</body>
+</html>

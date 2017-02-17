@@ -1,0 +1,16 @@
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.link {
+    font-size: 1.2em;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+}
+.border{
+    border: 2px solid black;
+    border-radius: 10px;
+    background:
+}
