@@ -17,8 +17,6 @@
 				$routeProvider
 					.when("/resume", {
 						templateUrl: "/resume/resume.partial.html",
-						// controller: "exercise1Controller",
-						// controllerAs: "vm"
 					})
                     .when("/portfolio", {
 						templateUrl: "/partials/portfolio.partial.htm",
@@ -27,6 +25,8 @@
 					})
 					.when("/contact", {
 						templateUrl: "partials/contact.partial.htm",
+						controller: "contactController",
+						controllerAs: "vm"
 					})
 					.otherwise({
 						templateUrl: "/partials/welcome.partial.htm",

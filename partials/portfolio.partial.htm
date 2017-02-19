@@ -4,7 +4,7 @@
 <navigation></navigation>
 <body>
 
-    <h1 ng-class="textColor">Portfolio</h1>
+    <h1 class="white-text">Portfolio</h1>
     <div class="show white-text" ng-class='showBackground'>
         <div ng-show='college' >
             <h2 class="myCollege">MyCollege</h2>
@@ -16,18 +16,18 @@
         </div>
         <div ng-show='arena' >
             <h2 class="dungeonScript">dungeonScript</h2>
-            <p class='thumb-text'>A self creating dungeon crawler built with javaScript</p>
+            <p class='thumb-text'>A self generating dungeon crawler built with javaScript</p>
         </div>
     </div>
     <div class="work-section">
 
-        <div class="thumbnail" ng-mouseover='restaurante = true; college = false; arena = false; textColor = "white-text"; showBackground = "restaurant-back"'>
+        <div class="thumbnail" ng-mouseover='restaurante = true; college = false; arena = false; start = true; showBackground = "restaurant-back"'>
             <img src="img/restaurant.png"  onclick="window.location='projects/restaurante-DylanMahaffey/index.html'">
         </div>
-        <div class="thumbnail" ng-mouseover='college = true; restaurante = false; arena = false; textColor = "white-text"; showBackground = "college-back"'>
+        <div class="thumbnail" ng-mouseover='college = true; restaurante = false; arena = false; start = true; showBackground = "college-back"'>
             <img src="img/college.png" onclick="window.location='projects/project 2/index.html'">
         </div>
-        <div class="thumbnail" ng-mouseover='arena = true; college = false; restaurante = false; textColor = "white-text"; showBackground = "arena-back"'>
+        <div class="thumbnail" ng-mouseover='arena = true; college = false; restaurante = false; start = true; showBackground = "arena-back"'>
             <img src="img/arena.png" onclick="window.location='projects/arena/index.html'">
         </div>
     </div>
@@ -35,6 +35,7 @@
     <img src="img/restaurant-2.jpg" class="background" ng-show='restaurante'>
     <img src="img/university.jpg" class="background" ng-show='college'>
     <img src="img/cavern.jpg" class="background" ng-show='arena'>
+    <img src='img/line-alt.jpg' class="background" ng-hide='start'></img>
 
 
 </body>

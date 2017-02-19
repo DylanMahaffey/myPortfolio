@@ -7,12 +7,13 @@
                 $location.path(path);
             };
 
-            this.current = $location.path()
+            this.current = $location.path();
 
             if(this.current == '/resume'){ this.resume='border'}
-            else if(this.current == '/contact'){ this.contact='border'}
-            else if(this.current == '/portfolio'){ this.portfolio='border'}
-            else{this.else='border'}
+            else if(this.current == '/contact'){ this.contact='border-white'; this.nav = 'white'}
+            else if(this.current == '/portfolio'){ this.portfolio='border-white'; this.nav = 'white'}
+            else{this.else='border'};
+
 
         });
 }(window.angular));
