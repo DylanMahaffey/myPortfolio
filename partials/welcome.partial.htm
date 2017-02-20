@@ -8,19 +8,66 @@ body{
 }
 h1{
     text-align: center;
-    font-family: "EB Garamond"
+    font-family: "EB Garamond";
+    color: white;
+}
+.info-card{
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #888;
 }
 .prof-pic{
     border-radius: 50%;
-    width: 15vw;
-    display: block;
+    width: 13vw;
+}
+.info{
+    width: 30vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info h2{
+    font-size: 3em;
+    font-family: "EB Garamond"
+}
+.info h3{
+    font-size: 2em;
+    font-family: 'Cormorant Garamond';
+    margin: 0;
+}
+.excerpt{
+    font-family: "Lato";
+    color: white;
+    width: 44vw;
     margin: auto;
+    text-align: center;
+}
+.excerpt p{
+    line-height: 30px;
 }
 </style>
 
 <body>
     <navigation></navigation>
-    <h1>Welcome!</h1>
-    <img src="/img/profile pic.jpg" class="prof-pic">
-
+    <div class="info-card">
+        <img src="/img/profile pic.jpg" class="prof-pic">
+        <div class="info">
+            <h2>Dylan Mahaffey</h2>
+            <h3>Web Developer</h3>
+        </div>
+    </div>
+    <div class="excerpt">
+        <p>
+            Hello, I'm a Web Developer from Fresno, Ca and student of the fast growing GeekWise Academy.
+            I am proficient with HTML, CSS, and JavaScript, as well as the frameworks Bootstrap and AngularJs,
+            and a noivce with gulp.js and Firebase. Also I am in the process of learning Node.js.
+            Check out my portfolio made with AngularJs and send a message if your interested in hiring me!
+        </p>
+    </div>
 </body>
