@@ -155,3 +155,11 @@ textarea.ng-invalid.ng-dirty {
 span{
     color: red;
 }
+.gh-icon{
+    width: 5vw;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
