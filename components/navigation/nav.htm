@@ -1,4 +1,11 @@
 <link rel="stylesheet" href="/components/navigation/nav.css">
+<style media="screen">
+        @media screen and (max-width: 600px){
+            .link{
+                width: 85px;
+            }
+        }
+</style>
 <div class="nav-container" ng-class="vm.nav">
     <a class='link' ng-class='vm.else' ng-click="vm.goto('/')">home</a>
     <a class='link' ng-class='vm.resume' ng-click="vm.goto('/resume')">resume</a>

@@ -67,3 +67,9 @@
     .dungeonScript{
         font-family: 'Uncial Antiqua', cursive;
     }
+    .mobile-background{
+        display: none;
+    }
+    .mobile-note{
+        display: none;
+    }

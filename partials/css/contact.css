@@ -19,6 +19,9 @@ h1{
     height: 100vh;
     width: 100vw;
 }
+.mobile-background{
+    display: none;
+}
 .my-info{
     width: 100%;
     height: auto;
