@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "superstatic --config superstatic.json --port 8888"
+    "start": "superstatic --config superstatic.json --port 8800"
   },
   "dependencies": {
     "angular": "^1.6.1",
